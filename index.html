@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Area Formula</title>
+</head>
+<body>
+<h1>การคำนวนหาพื้นที่</h1>
+<div>
+    <label for="square">1. การหาพื้นที่สี่เหลี่ยมจัตุรัส : กรุณาใส่ค่าด้าน</label><br>
+    <input type="text" id="inputValuesquare" >
+    <button onclick="tosquareProgram(document.getElementById('inputValuesquare').value)">คำนวน</button>
+</div>
+<div>
+    <label for="rectangle">2. การหาพื้นที่สี่เหลี่ยมผืนผ้า : กรุณาใส่ค่ากว้างและยาว</label><br>
+    <input type="text" id="inputValuerectangle1" name="width" > กว้าง
+    <input type="text" id="inputValuerectangle2" name="long"> ยาว
+    <button onclick="torectangleProgram(document.getElementById('inputValuerectangle1','inputValuerectangle2').value)">คำนวน</button>
+</div>
+<div id="totriangle"></div>
+<div id="toparallelogram"></div>
+<div id="tocircle"></div>
+<script src="area.js"></script>
+</body>
+</html>
+ 
