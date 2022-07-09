@@ -16,12 +16,12 @@ function torectangle() //สูตรหาพื้นที่สี่เห�
 }
 
 function torectangleProgram(width,long){
-    return width*long
+    return (width*long)
     
 }
 
 
-
+console.log("RunningtoRectangle function")
 
 function display(elementId, result) //ฟังชั่นดิสเพลย์
 {
