@@ -7,16 +7,19 @@ function tosquareProgram(result){
     alert(tosquare(result))
 }
 
-function torectangleProgram(){
-    const value1 = doc.getElementById(inputValuerectangle1).innerHTML= result
-    const value2 = doc.getElementById(inputValuerectangle2).innerHTML= result
-    const result = calculaterectangle(width,long)
-    alert(torectangleProgram(result))
-}
-function torectangle(width,long) //สูตรหาพื้นที่สี่เหลี่ยมผืนผ้า 
+function torectangle() //สูตรหาพื้นที่สี่เหลี่ยมผืนผ้า 
 {
-    return (width*long)
+    const value1 = doc.getElementById(inputValuerectangle1).innerHTML
+    const value2 = doc.getElementById(inputValuerectangle2).innerHTML
+    const result = torectangleProgram(value1,value2)
+    alert(result)
 }
+
+function torectangleProgram(width,long){
+    return width*long
+    
+}
+
 
 
 
