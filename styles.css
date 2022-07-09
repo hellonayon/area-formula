@@ -39,3 +39,20 @@ body{
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
+h1:hover {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+.dashed{
+    border-style: dashed;
+    border-radius: 20%;
+    padding: 40px;
+    color: #850b9d;
+}
+
