@@ -1,0 +1,24 @@
+body{
+   
+    background-color: rgb(234, 204, 248);
+    display: flex;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+}
+.container {
+    padding: 50px;
+  }
+
+.button {
+    background-color: #f6c0f0; 
+    border-radius: 12px;
+    border-color: rgb(232, 136, 197);
+    color: rgb(0, 0, 0);
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
