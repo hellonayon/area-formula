@@ -24,6 +24,22 @@ function torectangleProgram(width,long){
     
 }
 
+function totriangle() //สูตรหาพื้นที่สามเหลี่ยม 
+{
+    const value1 = document.getElementById("inputValuetriangle1").value
+    const value2 = document.getElementById("inputValuetriangle2").value
+
+    console.log('value1 is ${value1}')
+    console.log('value2 is ${value2}')
+    
+    const result = totriangleProgram(value1,value2)
+    alert(result)
+}
+
+function totriangleProgram(base,height){
+    return 0.5*base*height + " ซม.";
+    
+}
 
 
 function display(elementId, result) //ฟังชั่นดิสเพลย์
