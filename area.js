@@ -41,6 +41,36 @@ function totriangleProgram(base,height){
     
 }
 
+function toparallelogram() //สูตรหาพื้นที่สี่เหลี่ยมด้านขนาน 
+{
+    const value1 = document.getElementById("inputValueparallelogram1").value
+    const value2 = document.getElementById("inputValueparallelogram2").value
+
+    console.log('value1 is ${value1}')
+    console.log('value2 is ${value2}')
+    
+    const result = toparallelogramProgram(value1,value2)
+    alert(result)
+}
+
+function toparallelogramProgram(base,height){
+    return base*height + " ซม.";
+    
+}
+
+function tocircle() //สูตรหาพื้นที่วงกลม
+{
+    const value1 = document.getElementById("inputValuecircle").value
+    console.log('value1 is ${value1}')
+    
+    const result = tocircleProgram(value1)
+    alert(result)
+}
+
+function tocircleProgram(radius){
+    return 3.14*(radius*radius) + " ซม.";
+    
+}
 
 function display(elementId, result) //ฟังชั่นดิสเพลย์
 {
