@@ -20,5 +20,21 @@ body{
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #e3b0ff; 
+    border-radius: 12px;
+    border-color: rgb(232, 136, 197);
+    color: rgb(0, 0, 0);
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
     cursor: pointer;
 }
