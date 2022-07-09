@@ -9,8 +9,8 @@ function tosquareProgram(result){
 
 function torectangle() //สูตรหาพื้นที่สี่เหลี่ยมผืนผ้า 
 {
-    const value1 = document.getElementById(inputValuerectangle1).innerHTML
-    const value2 = document.getElementById(inputValuerectangle2).innerHTML
+    const value1 = document.getElementById("inputrectangle1").innerHTML
+    const value2 = document.getElementById("inputrectangle2").innerHTML
     const result = torectangleProgram(value1,value2)
     alert(result)
 }
